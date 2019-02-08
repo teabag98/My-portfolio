@@ -14,6 +14,7 @@ nav{
 background-color:#000000;
 padding:2em;
 padding-right: 54em;
+z-index: auto;
 
 
 }
@@ -36,4 +37,21 @@ img#dp{
   margin-left: 20em;
   image-resolution: from-image;
 
+
+}
+
+#home{
+  width: 20%;
+align-content: space-around;
+padding: 5em;
+background-color: blue;
+border-radius: 120%;
+height: 15em;
+position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+#profile{
+  position: relative;
 }
