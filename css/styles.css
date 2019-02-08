@@ -70,6 +70,68 @@ opacity: 0.5;
  text-decoration: none;
 border-radius: 4em;
 }
-#home > p>a:hover{
+#home > p > a:hover{
   color:white;
+}
+#me{
+text-align: center;
+color: white;
+
+}
+
+#me > h1{
+  font-family: 'Roboto Mono', monospace;
+}
+#me > p{
+  font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+}
+#me > #p1 {
+  font-style: italic;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+#portfolio{
+text-align: center;
+  color: white;
+
+
+}
+
+
+.languages > #languages1{
+  width: 30%;
+  text-align: center;
+
+}
+
+.languages{
+  display: flex;
+  color: white;
+  background-color: black;
+  opacity:0.8;
+  padding-top: 3em;
+
+}
+
+.languages > #languages2{
+  width: 30%;
+  text-align: center;
+}
+
+.languages > #languages2 >#secondChild{
+
+}
+
+.languages > #languages2 >#firstChild{
+
+}
+.languages > #languages2 >#thirdChild{
+
+}
+
+.languages > #languages3{
+  width:30%;
+  text-align: center;
 }
