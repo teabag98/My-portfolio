@@ -145,4 +145,11 @@ footer{
   text-align:center;
 color: white;
 z-index: auto;
+opacity: 0.8;
+}
+
+#footer_icons{
+  display: flex;
+margin-left: 20em;
+margin-right: 20em;
 }
