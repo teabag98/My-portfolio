@@ -1,0 +1,239 @@
+body{
+  background-image: url(https://www.st-christophers.co.uk/__data/assets/image/0009/525915/PARIS_HD_STCHRISTOPHER-38-compressor.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: white;
+  opacity: 0.9;
+}
+
+header{
+  background-image: url(https://cdn1.i-scmp.com/sites/default/files/styles/980x551/public/images/methode/2018/09/21/2fa019ac-ba34-11e8-8bc4-fc59ff6846aa_1280x720_180227.JPG?itok=sPH6ldAD);
+  overflow-y: hidden;
+  opacity: 0.8;
+  margin:auto;
+  background-size: cover;
+
+}
+
+body > header{
+  bottom: 0;
+}
+
+
+.header > h1 {
+
+  color: cyan;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.header > h3 {
+  text-align: center;
+  color: cyan;
+  font-size: 2em;
+}
+.header > h2{
+  text-align: center;
+  color: cyan;
+  font-size: 4em;
+   font-family: 'Lobster', cursive;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  background-color: darkcyan;
+  padding-right: 58em;
+}
+
+nav > ul > li  {
+  display:inline;
+  background-color:cyan;
+    background-size:15px;
+    padding:10px;
+    margin:2px;
+    float:right;
+ }
+
+
+nav > ul > li > a {
+  text-decoration: none;
+  color:blue;
+}
+
+
+nav > ul > li> a:hover{
+  color:white;
+}
+
+h3,#commercials{
+font-size: 3em;
+color: cyan;
+font-family:'Open Sans Condensed', sans-serif;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #2F4F4F;
+  border-radius:20%;
+
+}
+
+#video{
+justify-content: space-between;
+display: flex;
+}
+
+#interior{
+  font-size: 2em;
+color: cyan;
+font-family:'Open Sans Condensed', sans-serif;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #2F4F4F;
+  border-radius:50%;
+   padding:3em;
+   box-shadow: 5em 5em -10em;
+}
+
+
+#rooms{
+  display:flex;
+  margin:10px;
+  padding: 80px;
+  background-color: #2F4F4F;
+  justify-content: space-between;
+}
+.quote{
+  font-family: 'Open Sans Condensed', sans-serif;
+ color:cyan;
+  background-color: #2F4F4F;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 1em;
+  font-size:1em;
+}
+
+#rooms > #img1{
+   padding-right: 10px;
+}
+
+.paragraphs{
+  display: flex;
+  padding: 100px;
+
+
+}
+.paragraphs > #rooms1{
+  background-color: cyan;
+  margin-right: 20px;
+  box-shadow: -15px 15px #2F4F4F;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 1em;
+  opacity: 0.9;
+}
+
+.paragraphs > #rooms2{
+  margin-left: 100px;
+  overflow: auto;
+  background-color: cyan;
+  box-shadow: -15px 15px #2F4F4F;
+margin-top: 0px;
+border-color:black;
+padding: 1em;
+font-family: 'Cinzel', serif;
+opacity: 0.8;
+
+}
+.services{
+  color:cyan;
+  background-color: #2F4F4F;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 1em;
+  font-size:1em;
+}
+
+#Services{
+  display:flex;
+ text-align: justify;
+  opacity: 0.9;
+  box-shadow: -15px 15px #196F3D;
+  background-color:#2F4F4F;
+  justify-content: center;
+  color:cyan;
+  font-family: 'Dancing Script', cursive;
+}
+#gallery-header{
+   color:cyan;
+  background-color: #2F4F4F;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 1em;
+  font-size:1em;
+  font-family: 'VT323', monospace;
+}
+
+#gallery>img{
+  border-radius: 100%;
+  height: 14em;
+}
+
+#gifh3{
+
+ font-family: 'Major Mono Display', monospace;
+  color:cyan;
+  background-color: #2F4F4F;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1em;
+  font-size:1em;
+}
+
+
+table{
+  background-color: cyan;
+ box-shadow: 5px -10px #F2F4F4;
+
+
+}
+ td,a {
+  /*text-decoration: none;*/
+   color:#2F4F4F;
+}
+
+td, a:hover{
+  color: white;
+}
+/*@media only screen and (max-width: 768px) {*/
+/*       width: 100%;*/
+/*  }*/
+
+
+footer{
+  text-align: center;
+  background-image: url(https://doopchat.com/wp-content/uploads/2016/05/doopchat-footer-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em;
+  overflow-y: hidden;
+  color:cyan;
+}
+
+
+footer > p > a {
+  background-color: cyan;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 4em;
+  margin-top: 1em;
+  color:#2F4F4F;
+}
+
+
+footer > p > a:hover{
+  color:white;
+}
