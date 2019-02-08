@@ -25,13 +25,13 @@ margin-top: 0;
 
 
 nav> li> a{
-  text-decoration: none;
+text-decoration: none;
 color: white;
-float:right;
+/* float:right; */
 
 }
 nav> li> a:hover{
-  color: blue;
+  color: cyan;
 }
 img#dp{
   border-radius: 120%;
@@ -62,4 +62,14 @@ opacity: 0.5;
   position: relative;
  text-align: center;
  color: white;
+}
+
+#home > p>a {
+  background-color: cyan;
+  padding: 0.5em;
+ text-decoration: none;
+border-radius: 4em;
+}
+#home > p>a:hover{
+  color:white;
 }
