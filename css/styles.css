@@ -5,6 +5,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 0;
+  margin-left: 0;
 }
 
 
@@ -124,14 +125,24 @@ text-align: center;
 
 }
 
-.languages > #languages2 >#firstChild{
+.languages > #languages1>#firstChild{
 
 }
 .languages > #languages2 >#thirdChild{
-
+color: cyan;
 }
 
 .languages > #languages3{
   width:30%;
   text-align: center;
+}
+
+footer{
+  background-image: url(https://static1.squarespace.com/static/58a5b151ff7c50c87f2bec90/t/58b486abff7c502bdb628328/1488225968295/contact_us_background2.jpg?format=1500w);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4em;
+  text-align:center;
+color: white;
+z-index: auto;
 }
