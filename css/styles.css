@@ -71,8 +71,8 @@ opacity: 0.5;
  text-decoration: none;
 border-radius: 4em;
 }
-#home > p > a:hover{
-  color:white;
+a:hover{
+  color:cyan;
 }
 #me{
 text-align: center;
@@ -152,4 +152,10 @@ opacity: 0.8;
   display: flex;
 margin-left: 20em;
 margin-right: 20em;
+}
+
+@@media and only screen(max-width:400px;) {
+body{
+  background-color: cyan;
+}
 }
